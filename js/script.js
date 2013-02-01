@@ -402,7 +402,7 @@ $(document).ready(function() {
     });
 
 	// Colorbox
-	$(".colorboxImage").colorbox({height: '404px', innerHeight: '416px'});
+	$(".colorboxImage").colorbox({height: '414px', innerHeight: '416px'});
 	$(".colorboxVideo").colorbox({iframe:true,  height:'361px', innerWidth:521, innerHeight: '293px'});
 	// Disable Scrolling while colorbox open
 	$(document).bind('cbox_open', function(){ scrollReady = false; scrollLocked = true; });
